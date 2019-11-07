@@ -1,0 +1,2 @@
+# InstaEasy
+Site for instaEasy
