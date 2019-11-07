@@ -1,7 +1,7 @@
 .main {
   position: relative;
   font-family: 'Gotham Pro Regular';
-  background: url(../img/header/001_headerBG.jpg) no-repeat top;
+  background: url(../img/001_header/001_headerBG.jpg) no-repeat top;
   height: 801px;
 }
 
@@ -47,6 +47,50 @@
   border-radius: 50px;
   padding: 24px 100px 23px 21px;
   margin-right: 13px;
+}
+
+.about {
+  position: relative;
+}
+
+.about-mail {
+  position: absolute;
+  top: 13%;
+  left: 42%;
+}
+
+.about-like {
+  position: absolute;
+  top: 17%;
+  left: 48%;
+  z-index: 3;
+}
+
+.about-two {
+  position: absolute;
+  top: 80%;
+  left: 22%;
+}
+
+.about-text__title {
+  font-family: 'Gotham Pro Medium';
+  font-size: 47px;
+  line-height: 58px;
+  margin-bottom: 54px;
+}
+
+.about-text__subtitle {
+  font-family: 'Gotham Pro Medium';
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.about-text__subtitleone {
+  margin-bottom: 30px;
+}
+
+.about-strong {
+  font-weight: Bold;
 }
 
 * {
