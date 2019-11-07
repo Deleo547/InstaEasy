@@ -1,10 +1,15 @@
 @import "main"
 @import "about"
+@import "tools"
 
 *
   box-sizing: border-box
-  margin: 0
-  padding: 0
+  max-width: 1920px 
+  margin: auto
+  padding: auto
+*:before, *:after
+  box-sizing: border-box
+
 .header
   padding: 18px 0 17px
 .circle 
@@ -32,6 +37,8 @@
   font-weight: bold
   font-size: 16px
   color: #fff
+  &:hover
+    cursor: pointer
 
   
   
