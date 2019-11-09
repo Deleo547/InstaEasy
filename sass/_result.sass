@@ -1,0 +1,76 @@
+
+.result
+  padding-bottom: 80px 
+  font-family: $medium
+  &-descript
+    margin-top: 44px
+    margin-bottom: 52px
+    text-align: center
+    font-size: 22px
+    line-height: 27px
+    color: #DD4075
+  &-line
+    &::before
+      position: absolute
+      content: ''
+      top: -69px
+      left: 0
+      width: 1px
+      height: 170px
+      background-color: #4C2256
+      display: block
+      z-index: 1
+  &-wrap
+    &__standart
+      padding: 41px 40px
+      position: relative
+      color: #fff
+      background: linear-gradient(90deg, #DF4072 0%, #7934BE 100%), #FFFFFF
+      box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.12)
+      border-radius: 10px
+      &::before
+        position: absolute
+        content: ''
+        top: 0
+        left: 0.1%
+        width: 15px
+        height: 199px
+        border-radius: 10px
+        background-color: #7834BF
+        display: block
+        z-index: 1
+
+    &__turbo
+      padding: 41px 40px
+      position: relative
+      color: #fff
+      margin-top: 42px
+      background: linear-gradient(90deg, #7934BE 0%, #DF4072 100%), #FFFFFF
+      box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.12)
+      border-radius: 10px
+      &::before
+        position: absolute
+        content: ''
+        top: 0
+        left: 0.1%
+        width: 15px
+        height: 199px
+        border-radius: 10px
+        background-color: #DF4072
+        display: block
+        z-index: 1
+  &-title
+    padding-top: 136px
+    padding-bottom: 68px
+    font-size: 47px
+    line-height: 58px
+    text-align: center
+  &-text
+    font-size: 31px
+    line-height: 39px
+    &__label
+      font-family: $regular
+.form-title
+  font-size: 22px
+  line-height: 27px
+  color: #DD4075;

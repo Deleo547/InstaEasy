@@ -1,0 +1,70 @@
+.tarif
+  padding-top: 124px
+  font-family: $medium
+  background: url(../img/007_tarif/tarifBG.jpg) no-repeat bottom
+  &-title
+    text-align: center
+    font-size: 47px
+    line-height: 58px
+    color: #FFFFFF
+    padding-bottom: 97px  
+  &-card__title
+    display: inline-block
+    vertical-align: top
+    max-width: 200px
+    font-size: 31px
+    line-height: 39px
+    transform: translateY(20px)
+  &-card  
+    position: relative
+    padding-top: 28px
+    padding-left: 25px
+    background: #FFFFFF
+    box-shadow: 6px 0px 65px rgba(73, 73, 73, 0.28)
+    border-radius: 20px
+    height: 546px
+    transition: 0.3s
+    &::before
+      position: absolute
+      content: ''
+      top: 462px
+      left: 293px
+      width: 57px
+      height: 83px
+      background: linear-gradient(104.48deg, #DB4075 -1.85%, #8035BA 100%)
+      border-radius: 5px 5px 20px 5px
+      display: block
+      z-index: 1
+    
+    &__label
+      padding-bottom: 10px
+      font-size: 25px
+      line-height: 24px
+      color: #5488E9
+    &__price
+      font-size: 45px
+      line-height: 56px
+    &__up
+      position: relative
+      height: 593px
+      transform: translateY(-20px)
+      &::before
+        cursor: pointer
+        position: absolute
+        content: ''
+        top: 510px
+        left: 293px
+        width: 57px
+        height: 83px
+        background: linear-gradient(104.48deg, #DB4075 -1.85%, #8035BA 100%)
+        border-radius: 5px 5px 20px 5px
+        display: block
+        z-index: 1
+  &-clock
+    padding-bottom: 192px 
+    img 
+      display: inline-block
+
+.demo-box
+  display: flex
+  
